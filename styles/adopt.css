@@ -1,0 +1,312 @@
+@media (min-width: 935px) {
+    .menu-list a {
+        font-size: 16px;
+    }
+    .main-info {
+        padding-top: 73px;
+        margin-bottom: 54px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .main-title {
+        font-size: 58px;
+        line-height: 80px;
+    }
+    .text {
+        font-size: 24px;
+    }
+    .buttons {
+        display: flex;
+        gap: 34px;
+    }
+    .phone-left, .phone-right {
+        width: 25%;
+    }
+    .phone-left {
+        top: -100px;
+    }
+    .phone-right {
+        top: -60px;
+    }
+    .gray-line {
+        max-width: 884px;
+    }
+    .content-title {
+        font-size: 44px;
+    }
+    .card {
+        display: flex;
+        padding: 78px 134px 53px 255px;
+        gap: 117px;
+        margin-bottom: 110px;
+    }
+    .card-info {
+        width: 568px;
+    }
+    .card-title {
+        font-size: 24px;
+    }
+    .card-main-title {
+        font-size: 40px;
+        line-height: 57px;
+    }
+    .card-text {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .title-download {
+        padding-top: 140px;
+        font-size: 40px;
+    }
+    .text-download {
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+    .footer-info {
+        display: flex;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 480px) {
+    .header__burger-btn {
+        display: block;
+    }
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .menu {
+        transition: transform .5s, visibility .5s;
+        position: absolute;
+        right: -390px;
+        top: 0;
+        width: 350px;
+        background-color: #ffffff;
+        padding: 100px 20px 20px 20px;
+        visibility: hidden;
+    }
+    .menu-list {
+        display: block;
+    }
+    .menu-list a {
+        font-size: 20px;
+        text-align: center;
+    }
+    .menu-link {
+        padding: 10px 0;
+        display: block;
+    }
+    .main-info {
+        margin-bottom: 34px;
+        padding-top: 43px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .main-title {
+        font-size: 36px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .phone-left, .phone-right {
+        width: 35%;
+    }
+    .phone-left {
+
+    }
+    .phone-right {
+        top: 20px;
+    }
+    .gray-line {
+        max-width: 620px;
+    }
+    .content-title {
+        font-size: 36px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    .card-2 {
+        flex-direction: column-reverse;
+    }
+    .card-phone {
+        width: 40%;
+    }
+    .card-info {
+        margin-left: 20px;
+        margin-right: 20px;
+        min-width: 320px;
+    }
+    .card-title {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card-main-title {
+        font-size: 30px;
+        line-height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card-text {
+        font-size: 20px;
+        line-height: 38px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title-download {
+        padding-top: 60px;
+        font-size: 36px;
+    }
+    .text-download {
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 935px) {
+    .header__burger-btn {
+        display: block;
+    }
+    .header.open .menu {
+        transform: translateX(-100%);
+        visibility: visible;
+    }
+    .menu {
+        transition: transform .5s, visibility .5s;
+        position: absolute;
+        right: -390px;
+        top: 0;
+        width: 350px;
+        background-color: #ffffff;
+        padding: 100px 20px 20px 20px;
+        visibility: hidden;
+    }
+    .menu-list {
+        display: block;
+    }
+    .menu-list a {
+        font-size: 20px;
+        text-align: center;
+    }
+    .menu-link {
+        padding: 10px 0;
+        display: block;
+    }
+    .main-info {
+        margin-bottom: 54px;
+        padding-top: 73px;
+    }
+    .title {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .main-title {
+        font-size: 36px;
+        line-height: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .text {
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+    }
+    .phone-left, .phone-right {
+        width: 35%;
+    }
+    .phone-left {
+        top: -70px;
+    }
+    .phone-right {
+        top: 0;
+    }
+    .gray-line {
+        max-width: 620px;
+    }
+    .content-title {
+        font-size: 36px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        gap: 25px;
+        margin-bottom: 50px;
+    }
+    .card-2 {
+        flex-direction: column-reverse;
+    }
+
+    .card-phone {
+        width: 40%;
+    }
+    .card-info {
+        margin-left: 20px;
+        margin-right: 20px;
+        min-width: 481px;
+    }
+
+    .card-title {
+        font-size: 22px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card-main-title {
+        font-size: 35px;
+        line-height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .card-text {
+        font-size: 22px;
+        line-height: 38px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title-download {
+        padding-top: 60px;
+        font-size: 36px;
+    }
+    .text-download {
+        font-size: 20px;
+        margin-bottom: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
